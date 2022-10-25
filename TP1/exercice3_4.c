@@ -17,8 +17,8 @@ int main(void)
         break;
 
     case 0:
-        //execlp("ps","ps", (char *) NULL); Recherche dans tous le repertoire la commande
-        //execl("/bin/ps","ps", (char *) NULL); Recherche dans le repertoire donné
+        //execlp("ps","ps", (char *) NULL); //Recherche dans tous le repertoire la commande
+        execl("/bin/ps","ps", (char *) NULL); //Recherche dans le repertoire donné
         exit(EXIT_SUCCESS);
         break;       
            
